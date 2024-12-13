@@ -1,0 +1,88 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic Layout */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* Page Content Styles */
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 24px;
+}
+/* src/App.css */
+/* src/App.css */
+.home-container {
+  display: flex;
+  flex-direction: column;  /* Stack items vertically */
+  align-items: center;  /* Center horizontally */
+  justify-content: center;  /* Center vertically */
+  height: 100vh;  /* Full viewport height */
+  text-align: center;  /* Center text */
+}
+
+.home-image {
+  width: 40%;  /* Adjust the size of the image */
+  height: auto;  /* Maintain aspect ratio */
+  margin-bottom: 20px;  /* Add some space between the image and text */
+}
+
+.home-text {
+  font-size: 24px;  /* Adjust the font size */
+  color: #333;  /* Change text color if needed */
+}
+/* src/App.css */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.about-image {
+  width: 40%;  /* Adjust the image size */
+  height: auto;
+  margin-bottom: 20px;  /* Space between image and text */
+}
+
+.about-container h2 {
+  font-size: 18px;  /* Adjust text size */
+  color: #333;      /* Adjust text color */
+  max-width: 800px;  /* Optional: limit the text width */
+}
